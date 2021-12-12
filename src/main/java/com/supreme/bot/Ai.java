@@ -25,14 +25,14 @@ public class Ai {
 
     public void predictStocks(){
          try{
-             return mainRead();
+             return 'mainRead()';
          } catch(Exception e){
              return (e);
          }
     }
 
-    public String mainRead() throws Exception {
-        /**Instances training_data = new Instances(new BufferedReader(new FileReader("C:\\Users\\Pavilion\\Documents\\GitHub\\emyeco\\test_data\\stock_training_data.arff")));
+    /**public String mainRead() throws Exception {
+        Instances training_data = new Instances(new BufferedReader(new FileReader("C:\\Users\\Pavilion\\Documents\\GitHub\\emyeco\\test_data\\stock_training_data.arff")));
 		training_data.setClassIndex(training_data.numAttributes() - 1);
 
 		Instances testing_data = new Instances(new BufferedReader(new FileReader("C:\\Users\\Pavilion\\Documents\\Benn_Co\\stock_data.arff")));
@@ -68,10 +68,10 @@ public class Ai {
           
           predicted_value =testing_data.classAttribute().value((int) pred);
           System.out.println(" predicted value: " + getPredicted_value());
-        } */
+        } 
 
         return 'predicted value:';
 
-	}
+	}*/
 
 }

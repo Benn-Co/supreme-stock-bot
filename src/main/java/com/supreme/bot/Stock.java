@@ -15,7 +15,7 @@ public class DemoApplication {
     @RequestMapping("/")
     String home() {
         
-        new Ai.predictStocks();
+        //new Ai.predictStocks();
 
         return new Ai.predictStocks(); 
     }
