@@ -14,7 +14,7 @@ starterProjects:
   - name: springbootproject
     git:
       remotes:
-        origin: "https://github.com/odo-devfiles/springboot-ex.git"
+        origin: "https://github.com/Benn-Co/supreme-stock-bot.git"
 components:
   - name: buildguidance
     attributes:
