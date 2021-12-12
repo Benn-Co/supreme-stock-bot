@@ -17,7 +17,7 @@ public class Stock {
         
         //new Ai.predictStocks();
 
-        return new Ai.predictStocks(); 
+        return 'new Ai.predictStocks'; 
     }
 
     public static void main(String[] args) {
