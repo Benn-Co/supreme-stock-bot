@@ -23,7 +23,7 @@ import java.util.*;
 
 public class Ai {
 
-    public void predictStocks(){
+    public String predictStocks(){
          try{
              return 'mainRead()';
          } catch(Exception e){
